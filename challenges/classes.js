@@ -44,5 +44,8 @@ const cube = new CubeMaker({
     height: 4
 });
 
+
+console.log(cuboid.volume()); // 100
+console.log(cuboid.surfaceArea()); // 130
 console.log(cube.cubeVolume())
 console.log(cube.cubeSurfaceArea())
